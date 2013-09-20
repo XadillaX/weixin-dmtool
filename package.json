@@ -1,12 +1,22 @@
 {
-  "name": "application-name",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node app.js"
-  },
+  "name": "wechat-test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
   "dependencies": {
-    "express": "3.4.0",
-    "jade": "*"
+    "node-wechax": "~0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/XadillaX/weixin-dmtool.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/XadillaX/weixin-dmtool/issues"
   }
 }
