@@ -1,7 +1,7 @@
 {
-  "name": "wechat-test",
+  "name": "dmtool",
   "version": "0.0.0",
-  "description": "",
+  "description": "ERROR: No README data found!",
   "main": "app.js",
   "dependencies": {
     "node-wechax": "~0.0.1"
