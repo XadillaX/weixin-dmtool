@@ -1,7 +1,7 @@
 var spider = require("nodegrassex");
 var querystring = require("querystring");
 var xml2js = require("xml2js");
-var nextProcessor = require("./chatter");
+var nextProcessor = require("./wallpapersearcher");
 var path = require("path");
 
 String.prototype.trim = function() {
@@ -58,6 +58,7 @@ exports.process = function(sender, msg) {
         content.indexOf("听歌") === 0 || content.indexOf("我要听") === 0) {
         if(content.indexOf("我要听") === 0) content = content.substr(3);
         else content = content.substr(2);
+        content = content.trim();
 
         /**
          * The API url of BAIDU.
